@@ -3,7 +3,7 @@
 
 *{
 	margin:0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PingFang SC', sans-serif;
 }
 body{
 	height: 100vh;
@@ -13,7 +13,7 @@ body{
 
 li{
     font-size: 25px;
-
+	font-weight: normal;
 }
 
 .todo{
@@ -39,7 +39,7 @@ li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-weight: bold;
+	font-weight: bolder;
 	font-size: 25px;
 	letter-spacing: 1px;
 	text-transform: capitalize;
