@@ -23,8 +23,8 @@ li{
 	transform: translate(-50%,-50%);
 }
 .main{
-	height: 550px;
-	width: 380px;
+	height: 750px;                              /* 改变整个 to do list 的高。 */
+	width: 480px;                               /* 改变整个 to do list 的宽。 */
 	background: #FBFCFC;
 	border-radius: 15px;
 	padding: 10px 0 0 0;
@@ -132,9 +132,17 @@ li{
 	border-radius: 15px;
 	box-shadow: 0.1px 4px 8px 2px rgba(0,0,0,0.05);
 }
+
+/*li:first-child{*/
+/*    margin-top: 12px;*/
+/*}*/
+
+
 li:not(:first-child){
 	margin-top: 12px;
 }
+
+
 li label{
 	margin-left: 50px;
 }
